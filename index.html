@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Login Page</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body style="width: 80%; margin: auto;justify-content: center">
+    <form action="" onsubmit="return login()" id="loginForm">
+      <legend>Login</legend>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input
+          type="email"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+          placeholder="Enter email"
+        />
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input
+          type="password"
+          class="form-control"
+          id="exampleInputPassword1"
+          placeholder="Password"
+        />
+      </div>
+
+      <button type="submit" class="btn btn-primary">
+        Submit
+      </button>
+      <span>
+        <label for="">Don't have an Email?</label>
+        <a href="./register.html">Register</a>
+      </span>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
