@@ -1,2 +1,2 @@
 # LoginSignupExpertizo
-register and login an view post of all members
+register and login and view post of all members
